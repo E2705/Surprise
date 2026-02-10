@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.fondo{
-  background-image: url("/fondo2.jpg");
-  
+.fondo {
+  /* Usar ruta relativa para que funcione correctamente en GitHub Pages (bajo /Surprise/) */
+  background-image: url("fondo2.jpg");
 }
